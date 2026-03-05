@@ -55,6 +55,7 @@ test('Prompt dialog',  async ({page})=>
     
     await page.locator("//button[@id='promptBtn']").click()
     await expect(page.locator("//p[@id='demo']")).toHaveText("Hello John! How are you today?")
-
+    console.log("Practice 2nd push")
 
 })
+
